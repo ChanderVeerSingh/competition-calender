@@ -43,7 +43,9 @@ function AddToCalender(props) {
       .toISOString()
       .replace(/-/g, "")
       .replace(/:/g, "");
+      
     const calendarTime = `${s}/${e}`;
+    console.log("Calender ",calendarTime);
     let url = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
       props.name
     )}&dates=${calendarTime}&location=${

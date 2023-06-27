@@ -13,7 +13,7 @@ function ContestsBar(props) {
       <div className="outer">
         <div className="icon">
           <Icons site={props.contest.site} />
-          {/* <FontAwesomeIcon icon={faCodeBranch} /> */}
+          {/* <FontAwesomeIcon icon={faCodeBsranch} /> */}
         </div>
         <div className="info">
           <div className="name">
